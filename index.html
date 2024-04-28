@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bar-Task</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/bar-favicon.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <aside>
+            <div class="navbar">
+               <div class="head">
+                <img class="user" src="images/userimg.jpg" alt="user">
+                <span class="user-name">Mrd.dev</span>
+                <form action="GET" class="search">
+                    <input type="text" placeholder="Search">
+                    <label><i class="fa fa-search" aria-hidden="true"></i></label>
+                </form>
+                <div class="icon-close">
+                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                </div>
+               </div>
+
+                <div class="navbar-items">
+                    <a href="#dashboard" class="active" onclick="smoothScroll('dashboard')"><i class="fa fa-tachometer" aria-hidden="true"></i><b>Dashboard</b></a>
+                    <a href="#market_overview" onclick="smoothScroll('market_overview')"><i class="fa fa-bar-chart" aria-hidden="true"></i><b>Market Overview</b></a>
+                    <a href="#analytics" onclick="smoothScroll('analytics')"><i class="fa fa-pie-chart" aria-hidden="true"></i><b>Analytics</b></a>
+                    <a href="#reports" onclick="smoothScroll('reports')"><i class="fa fa-list-alt" aria-hidden="true"></i><b>Reports</b></a>
+                    <a href="#industry" onclick="smoothScroll('industry')"><i class="fa fa-industry" aria-hidden="true"></i><b>Industry</b></a>
+                    <a href="#settings" onclick="smoothScroll('settings')"><i class="fa fa-cog" aria-hidden="true"></i><b>Settings</b></a>
+                    <a href="#notifications" onclick="smoothScroll('notifications')"><i class="fa fa-bell" aria-hidden="true"></i><b>Notifications</b></a>
+                </div>
+
+                <div class="profile">
+                    <a href="https://www.linkedin.com/in/murad-maharramly/"><img src="images/1703540761394.jpg" alt="img"></a>
+                    <div class="text">
+                        <p>Murad Meherremli</p>
+                        <a href="mailto:mooradmaharramly@gmail.com">mooradmaharramly@gmail.com</a>
+                    </div>
+                    <i class="fa fa-sign-out" aria-hidden="true"></i>
+                </div>
+            </div>
+        </aside>
+        <section id="dashboard">
+            <h1>Dashboard</h1>
+        </section>
+        <section id="market_overview">
+            <h1>Market Overview</h1>
+        </section>
+        <section id="analytics">
+            <h1>Analytics</h1>
+        </section>
+        <section id="reports">
+            <h1>Reports</h1>
+        </section>
+        <section id="industry">
+            <h1>Industry</h1>
+        </section>
+        <section id="settings">
+            <h1>Settings</h1>
+        </section>
+        <section id="notifications">
+            <h1>Notifications</h1>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    <div class="attribution"> 
+        Coded by <a href="https://www.linkedin.com/in/murad-maharramly/">Murad Meherremli</a>.
+      </div>
+</body>
+</html>
