@@ -87,6 +87,26 @@ aside{
     -o-border-radius: 6px;
     color: white;
 }
+.search input:focus + label{
+    animation: spin 2s infinite alternate;
+    -webkit-animation: spin 2s infinite alternate;
+}
+@keyframes spin {
+    0% {
+      transform: translateX(-5px);
+      -webkit-transform: translateX(-5px);
+      -moz-transform: translateX(-5px);
+      -ms-transform: translateX(-5px);
+      -o-transform: translateX(-5px);
+}
+    100% {
+        transform: translateX(0px);
+        -webkit-transform: translateX(0px);
+        -moz-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+        -o-transform: translateX(0px);
+}
+  }
 .search label{
     position: absolute;
     top: 15px;
@@ -113,7 +133,6 @@ aside{
     background-color: var(--menu-hover);
     margin-left: 5px;
     margin-right: -5px;
-
 }
 .navbar-items a i{
     margin-right: 10px;
