@@ -218,12 +218,16 @@ section h1{
     -o-border-radius: 0.6em;
 }
 .attribution{
-    position: fixed;
-    bottom: 2rem;
-    left: 44%;
+    display: flex;
+    justify-content: center;  
+}
+.attribution p{
     font-size: 0.8em;
     animation: slide 2s infinite alternate;
     -webkit-animation: slide 2s infinite alternate;
+    position: fixed;
+    bottom: 2rem;
+
 }
 .attribution a{
     margin-left: 5px;
